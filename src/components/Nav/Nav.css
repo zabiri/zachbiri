@@ -1,0 +1,14 @@
+.Nav {
+  position: fixed;
+  bottom: 0rem;
+  left: calc(50% - 5rem);
+  height: 3rem;
+  width: 10rem;
+  background-color: white;
+  border-left: 10px solid red;
+  border-right: 10px solid #18b933;
+  z-index: 100; }
+  .Nav ul {
+    list-style: none; }
+    .Nav ul li {
+      display: inline; }

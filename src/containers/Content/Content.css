@@ -1,0 +1,13 @@
+.Content {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: 3rem 1fr 3rem;
+  background-color: white;
+  margin: 10px;
+  height: calc(100vh - 20px);
+  border: 10px solid blue;
+  padding: 10px; }
+  .Content header {
+    background-color: white; }
+  .Content footer {
+    background-color: red; }
