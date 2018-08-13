@@ -1,0 +1,39 @@
+.border {
+  left: 0;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 200; }
+  .border__top {
+    background-color: #4056a1;
+    position: absolute;
+    border-radius: 1rem;
+    height: 1rem;
+    width: calc(100% - (2 * 1rem));
+    left: 1rem;
+    top: 1rem; }
+  .border__bottom {
+    background-color: #4056a1;
+    position: absolute;
+    border-radius: 1rem;
+    height: 1rem;
+    width: calc(100% - (2 * 1rem));
+    left: 1rem;
+    bottom: 1rem; }
+  .border__left {
+    background-color: #4056a1;
+    position: absolute;
+    border-radius: 1rem;
+    height: calc(100vh - (2 * 1rem));
+    width: 1rem;
+    left: 1rem;
+    top: 1rem; }
+  .border__right {
+    background-color: #4056a1;
+    position: absolute;
+    border-radius: 1rem;
+    height: calc(100vh - (2 * 1rem));
+    width: 1rem;
+    right: 1rem;
+    top: 1rem; }

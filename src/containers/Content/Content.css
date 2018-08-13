@@ -1,13 +1,11 @@
 .Content {
+  background-color: #F1F0EB;
   box-sizing: border-box;
   display: grid;
-  grid-template-rows: 3rem 1fr 3rem;
-  background-color: white;
-  margin: 10px;
-  height: calc(100vh - 20px);
-  border: 10px solid blue;
-  padding: 10px; }
+  grid-template-rows: 1fr;
+  grid-template-columns: 50% 1fr;
+  margin: 3rem; }
   .Content header {
-    background-color: white; }
+    background-color: purple; }
   .Content footer {
     background-color: red; }

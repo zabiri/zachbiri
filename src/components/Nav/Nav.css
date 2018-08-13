@@ -1,13 +1,35 @@
 .Nav {
-  position: fixed;
   bottom: 0rem;
-  left: calc(50% - 5rem);
+  left: calc(50% - (10rem / 2));
   height: 3rem;
+  position: fixed;
   width: 10rem;
-  background-color: white;
-  border-left: 10px solid red;
-  border-right: 10px solid #18b933;
-  z-index: 100; }
+  z-index: 201; }
+  .Nav__leftbar {
+    height: 3rem;
+    background-color: #4056a1;
+    border-radius: .4rem;
+    position: absolute;
+    top: 0;
+    width: 1rem;
+    z-index: -1;
+    left: 0; }
+  .Nav__middlebar {
+    background-color: #F1F0EB;
+    height: 1rem;
+    position: absolute;
+    top: 1rem;
+    width: 10rem;
+    z-index: -1; }
+  .Nav__rightbar {
+    height: 3rem;
+    background-color: #4056a1;
+    border-radius: .4rem;
+    position: absolute;
+    top: 0;
+    width: 1rem;
+    z-index: -1;
+    right: 0; }
   .Nav ul {
     list-style: none; }
     .Nav ul li {

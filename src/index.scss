@@ -1,2 +1,6 @@
 @import "./scss/vendors/normalize";
 @import './scss/main';
+
+body {
+    background-color: $color-background-page;
+}

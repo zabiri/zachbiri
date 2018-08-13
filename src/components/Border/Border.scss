@@ -1,0 +1,29 @@
+@import "../../scss/abstracts/abstracts";
+.border {
+  left: 0;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: $border-z-index;
+  &__top {
+    @include borderpanel(h);
+    left: $border-padding;
+    top: $border-padding;
+  }
+  &__bottom {
+    @include borderpanel(h);
+    left: $border-padding;
+    bottom: $border-padding;
+  }
+  &__left {
+    @include borderpanel(v);
+    left: $border-padding;
+    top: $border-padding;
+  }
+  &__right {
+    @include borderpanel(v);
+    right: $border-padding;
+    top: $border-padding;
+  }
+}
