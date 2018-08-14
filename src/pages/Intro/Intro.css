@@ -1,6 +1,8 @@
 .Intro {
   color: #040136;
-  text-align: justify; }
+  text-align: justify;
+  padding-left: 2rem;
+  padding-right: 7rem; }
   .Intro__box {
     position: relative;
     top: 50%;

@@ -8,7 +8,7 @@ $head-width: 70%;
   @include verticalCenter;
   &__video {
     // height: $head-width * .7;
-    width: 100%;
+    width: 80%;
     mask-image: url(../../../assets/images/head.svg);
     mask-repeat: no-repeat;
     mask-position: center;

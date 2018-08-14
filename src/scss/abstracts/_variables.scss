@@ -30,5 +30,5 @@ $content-margin: (($border-padding * 2) + $border-thickness);
 $content-height: unquote("calc(100vh - (#{$content-margin} * 2) )");
 
 
-$nav-width: 10rem;
+$nav-width: 15rem;
 $nav-z-index: ($border-z-index + 1);

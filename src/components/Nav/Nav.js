@@ -1,4 +1,5 @@
 import React from "react";
+import NavIcon from "./NavIcon/NavIcon";
 import "./Nav.css";
 const nav = () => {
   return (
@@ -6,9 +7,15 @@ const nav = () => {
       <div className="Nav__middlebar" />
       <div className="Nav__leftbar" />
       <ul>
-        <li>Home</li>
-        <li>Web</li>
-        <li>Music</li>
+        <li>
+        <NavIcon type="home"/>
+        </li>
+        <li>
+        <NavIcon type="web"/>
+        </li>
+        <li>
+        <NavIcon type="music"/>
+        </li>
       </ul>
       <div className="Nav__rightbar" />
     </nav>

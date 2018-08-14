@@ -1,0 +1,11 @@
+.NavIcon {
+  font-size: 2.8rem;
+  width: 4rem;
+  color: #221093;
+  display: inline-block;
+  text-align: center;
+  font-family: Montserrat; }
+  .NavIcon i {
+    display: inline-block; }
+  .NavIcon__caption {
+    display: inline-block; }

@@ -1,10 +1,10 @@
 .Nav {
   bottom: 0;
-  left: calc(50% - (10rem / 2));
+  left: calc(50% - (15rem / 2));
   height: 5rem;
   position: fixed;
-  width: 10rem;
-  z-index: 201; }
+  z-index: 201;
+  width: 15rem; }
   .Nav__leftbar {
     height: 3rem;
     background-color: #221093;
@@ -19,7 +19,7 @@
     height: 1rem;
     position: absolute;
     bottom: 2rem;
-    width: 10rem;
+    width: 15rem;
     z-index: -1; }
   .Nav__rightbar {
     height: 3rem;
@@ -35,6 +35,9 @@
     position: relative;
     top: 50%;
     transform: perspective(1px) translateY(-50%);
-    text-align: center; }
+    text-align: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; }
     .Nav ul li {
+      text-align: center;
       display: inline; }

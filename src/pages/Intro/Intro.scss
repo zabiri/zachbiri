@@ -3,6 +3,8 @@
 .Intro {
   color: $palette-3;
   text-align: justify;
+  padding-left: 2rem;
+  padding-right: 7rem;
   &__box {
     @include verticalCenter;
   }
