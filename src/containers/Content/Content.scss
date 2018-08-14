@@ -1,15 +1,11 @@
 @import '../../scss/abstracts/abstracts';
 .Content {
   background-color: $color-background-page;
+  // border: 1px solid blue;
   box-sizing: border-box;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 50% 1fr;
-  margin: ($border-thickness * 3);
-  & header {
-    background-color: purple;
-  }
-  & footer {
-    background-color: red;
-  }
+  height: $content-height;
+  margin: $content-margin;
 }

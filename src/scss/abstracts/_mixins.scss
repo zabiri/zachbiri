@@ -58,12 +58,17 @@
 }
 
 @mixin nav-sidebar {
-    height: $nav-height;
+    height: $border-thickness * 3;
     background-color: $color-border;
     border-radius: .4rem;
     position: absolute;
-    top: 0;
+    bottom: $border-padding - 1;
     width: $border-thickness;
     z-index: -1;
 }
 
+@mixin verticalCenter {
+  position: relative;
+  top: 50%;
+  transform: perspective(1px) translateY(-50%);
+}

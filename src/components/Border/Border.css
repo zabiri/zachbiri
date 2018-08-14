@@ -10,30 +10,30 @@
     position: absolute;
     border-radius: 1rem;
     height: 1rem;
-    width: calc(100% - (2 * 1rem));
-    left: 1rem;
-    top: 1rem; }
+    width: calc(100% - (2 * 2rem));
+    left: 2rem;
+    top: 2rem; }
   .border__bottom {
     background-color: #4056a1;
     position: absolute;
     border-radius: 1rem;
     height: 1rem;
-    width: calc(100% - (2 * 1rem));
-    left: 1rem;
-    bottom: 1rem; }
+    width: calc(100% - (2 * 2rem));
+    left: 2rem;
+    bottom: 2rem; }
   .border__left {
     background-color: #4056a1;
     position: absolute;
     border-radius: 1rem;
-    height: calc(100vh - (2 * 1rem));
+    height: calc(100vh - (2 * 2rem));
     width: 1rem;
-    left: 1rem;
-    top: 1rem; }
+    left: 2rem;
+    top: 2rem; }
   .border__right {
     background-color: #4056a1;
     position: absolute;
     border-radius: 1rem;
-    height: calc(100vh - (2 * 1rem));
+    height: calc(100vh - (2 * 2rem));
     width: 1rem;
-    right: 1rem;
-    top: 1rem; }
+    right: 2rem;
+    top: 2rem; }

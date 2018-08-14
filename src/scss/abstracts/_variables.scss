@@ -10,14 +10,17 @@ $palette-5: #c5cbe3;
 
 
 $border-thickness: 1rem;
-$border-width: unquote("calc(100% - (2 * #{$border-thickness}))");
-$border-height: unquote("calc(100vh - (2 * #{$border-thickness}))");
-$border-padding: 1rem;
+$border-padding: 2rem;
+$border-width: unquote("calc(100% - (2 * #{$border-padding}))");
+$border-height: unquote("calc(100vh - (2 * #{$border-padding}))");
 $border-z-index: 200;
 
 $color-background-page: #F1F0EB;
 $color-border: #4056a1;
 
-$nav-height: ($border-thickness * 3);
+$content-margin: (($border-padding * 2) + $border-thickness);
+$content-height: unquote("calc(100vh - (#{$content-margin} * 2) )");
+
+
 $nav-width: 10rem;
 $nav-z-index: ($border-z-index + 1);

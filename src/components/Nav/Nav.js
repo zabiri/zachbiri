@@ -4,7 +4,7 @@ const nav = () => {
   return (
     <nav className="Nav">
       <div className="Nav__middlebar" />
-      <div className="Nav__leftbar" />>
+      <div className="Nav__leftbar" />
       <ul>
         <li>Home</li>
         <li>Web</li>

@@ -1,0 +1,7 @@
+@import "../../scss/abstracts/abstracts";
+
+.Intro {
+  &__box {
+    @include verticalCenter;
+  }
+}
