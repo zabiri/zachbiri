@@ -192,7 +192,8 @@ h1 {
 p {
   font-family: Montserrat;
   font-size: 1.8rem;
-  font-weight: 400; }
+  font-weight: 400;
+  hyphens: auto; }
 
 body {
-  background-color: #f1f0eb; }
+  background-color: #f3eaea; }

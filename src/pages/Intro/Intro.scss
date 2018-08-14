@@ -1,6 +1,8 @@
 @import "../../scss/abstracts/abstracts";
 
 .Intro {
+  color: $palette-3;
+  text-align: justify;
   &__box {
     @include verticalCenter;
   }

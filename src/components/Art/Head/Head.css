@@ -1,35 +1,15 @@
 .Head {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   top: 50%;
   transform: perspective(1px) translateY(-50%); }
   .Head__video {
-    height: 70%;
-    width: 70%;
+    width: 100%;
     mask-image: url(../../../assets/images/head.svg);
     mask-repeat: no-repeat;
-    mask-position: center; }
-
-*::-webkit-media-controls-panel {
-  display: none !important;
-  opacity: 0;
-  -webkit-appearance: none;
-  appearance: none; }
-
-/* Old shadow dom for play button */
-*::-webkit-media-controls-play-button {
-  display: none !important;
-  opacity: 0;
-  -webkit-appearance: none;
-  appearance: none; }
-
-/* New shadow dom for play button */
-/* This one works! */
-*::-webkit-media-controls-start-playback-button {
-  display: none !important;
-  opacity: 0;
-  appearance: none;
-  -webkit-appearance: none; }
-
-video::-webkit-media-controls {
-  display: none !important; }
+    mask-position: center;
+    transform: translate3d(6%, 0, 0);
+    backface-visibility: hidden; }
