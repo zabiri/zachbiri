@@ -6,6 +6,24 @@
   width: 100%;
   z-index: 200;
   filter: drop-shadow(0.2rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2)); }
+  .border__leftbar {
+    height: 3rem;
+    background-color: #421093;
+    border-radius: .4rem;
+    position: absolute;
+    bottom: 1rem;
+    width: 1rem;
+    z-index: -1;
+    left: calc(calc((50% - (2 * 2rem)) - (15rem / 3)) + 2rem - 1rem); }
+  .border__rightbar {
+    height: 3rem;
+    background-color: #421093;
+    border-radius: .4rem;
+    position: absolute;
+    bottom: 1rem;
+    width: 1rem;
+    z-index: -1;
+    right: calc(calc((50% - (2 * 2rem)) - (15rem / 3)) + 2rem - 1rem); }
   .border__top {
     background-color: #421093;
     position: absolute;

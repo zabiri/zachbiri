@@ -5,24 +5,6 @@
   position: fixed;
   z-index: 201;
   width: 15rem; }
-  .Nav__leftbar {
-    height: 3rem;
-    background-color: #421093;
-    border-radius: .4rem;
-    position: absolute;
-    bottom: 1rem;
-    width: 1rem;
-    z-index: -1;
-    left: 0; }
-  .Nav__rightbar {
-    height: 3rem;
-    background-color: #421093;
-    border-radius: .4rem;
-    position: absolute;
-    bottom: 1rem;
-    width: 1rem;
-    z-index: -1;
-    right: 0; }
   .Nav ul {
     list-style: none;
     position: relative;

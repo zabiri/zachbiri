@@ -4,7 +4,6 @@ import "./Nav.css";
 const nav = () => {
   return (
     <nav className="Nav">
-      <div className="Nav__leftbar" />
       <ul>
         <li>
         <NavIcon type="home"/>
@@ -16,7 +15,7 @@ const nav = () => {
         <NavIcon type="music"/>
         </li>
       </ul>
-      <div className="Nav__rightbar" />
+      
     </nav>
   );
 };

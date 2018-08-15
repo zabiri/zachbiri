@@ -6,7 +6,16 @@
   top: 0;
   width: 100%;
   z-index: $border-z-index;
-  filter: drop-shadow(.2rem .1rem .1rem rgba(0, 0, 0, .2));
+  filter: drop-shadow($shadow);
+  &__leftbar {
+    @include nav-sidebar;
+    left: $border-bumper-displacement;
+  }
+
+  &__rightbar {
+    @include nav-sidebar;
+    right: $border-bumper-displacement;
+  }
   &__top {
     @include borderpanel(h);
     left: $border-padding;

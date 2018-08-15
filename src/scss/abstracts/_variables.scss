@@ -32,3 +32,7 @@ $color-border: $palette-4;
 
 $content-margin: (($border-padding * 2) + $border-thickness);
 $content-height: unquote("calc(100vh - (#{$content-margin} * 2) )");
+
+$border-bumper-displacement: unquote("calc(#{$border-width-bottom} + #{$border-padding} - #{$border-thickness})");
+
+$shadow: .2rem .1rem .1rem rgba(0, 0, 0, .2);
