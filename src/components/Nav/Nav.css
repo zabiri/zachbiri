@@ -7,7 +7,7 @@
   width: 15rem; }
   .Nav__leftbar {
     height: 3rem;
-    background-color: #221093;
+    background-color: #421093;
     border-radius: .4rem;
     position: absolute;
     bottom: 1rem;
@@ -23,7 +23,7 @@
     z-index: -1; }
   .Nav__rightbar {
     height: 3rem;
-    background-color: #221093;
+    background-color: #421093;
     border-radius: .4rem;
     position: absolute;
     bottom: 1rem;
