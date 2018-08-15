@@ -3,9 +3,12 @@
   width: 4rem;
   color: #421093;
   display: inline-block;
-  text-align: center;
-  font-family: Montserrat; }
+  text-align: center; }
   .NavIcon i {
-    display: inline-block; }
-  .NavIcon__caption {
-    display: inline-block; }
+    transition: all 150ms ease-in;
+    display: inline-block;
+    text-shadow: 0.2rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+    transform: scale3d(1, 1, 1) translateY(0);
+    backface-visibility: hidden; }
+    .NavIcon i:hover {
+      transform: scale3d(1.1, 1.1, 1.1) translateY(-0.3rem); }

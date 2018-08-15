@@ -9,6 +9,7 @@
     color: $palette-4;
     font-weight: 500;
     @include textShadow;
+    
   }
   &__box {
     @include verticalCenter;
