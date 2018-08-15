@@ -6,14 +6,20 @@
   top: 0;
   width: 100%;
   z-index: $border-z-index;
+  filter: drop-shadow(.2rem .1rem .1rem rgba(0, 0, 0, .2));
   &__top {
     @include borderpanel(h);
     left: $border-padding;
     top: $border-padding;
   }
-  &__bottom {
-    @include borderpanel(h);
+  &__bottom-l {
+    @include borderpanel(hb);
     left: $border-padding;
+    bottom: $border-padding;
+  }
+  &__bottom-r {
+    @include borderpanel(hb);
+    right: $border-padding;
     bottom: $border-padding;
   }
   &__left {

@@ -16,19 +16,19 @@ $palette-3: #040136;
 $palette-4: #421093;
 $palette-5: #9b1261;
 
+$nav-width: 15rem;
+
 
 $border-thickness: 1rem;
 $border-padding: 2rem;
 $border-width: unquote("calc(100% - (2 * #{$border-padding}))");
+$border-width-bottom: unquote("calc((50% - (2 * #{$border-padding})) - (#{$nav-width} / 3))");
 $border-height: unquote("calc(100vh - (2 * #{$border-padding}))");
 $border-z-index: 200;
+$nav-z-index: ($border-z-index + 1);
 
 $color-background-page: $palette-0;
 $color-border: $palette-4;
 
 $content-margin: (($border-padding * 2) + $border-thickness);
 $content-height: unquote("calc(100vh - (#{$content-margin} * 2) )");
-
-
-$nav-width: 15rem;
-$nav-z-index: ($border-z-index + 1);

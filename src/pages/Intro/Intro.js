@@ -5,8 +5,8 @@ const intro = () => {
   return (
     <article className="Intro">
       <div className="Intro__box">
-        <h1>Zach Biri</h1>
-        <p>
+        <h1 className="Intro__header">Zach Biri</h1>
+        <p className="Intro__paragraph">
           Cat ipsum dolor sit amet, sleep everywhere, but not in my bed when
           owners are asleep, cry for no apparent reason chase dog then run away.
           Pet right here, no not there, here, no fool, right here that other cat

@@ -11,14 +11,7 @@
     @include nav-sidebar;
     left: 0;
   }
-  &__middlebar {
-    background-color: $color-background-page;
-    height: $border-thickness;
-    position: absolute;
-    bottom: $border-padding;
-    width: $nav-width;
-    z-index: -1;
-  }
+
   &__rightbar {
     @include nav-sidebar;
     right: 0;

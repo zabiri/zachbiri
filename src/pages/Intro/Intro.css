@@ -3,6 +3,10 @@
   text-align: justify;
   padding-left: 2rem;
   padding-right: 7rem; }
+  .Intro__header {
+    color: #421093;
+    font-weight: 500;
+    text-shadow: 0.2rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2); }
   .Intro__box {
     position: relative;
     top: 50%;
