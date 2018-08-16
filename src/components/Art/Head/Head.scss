@@ -1,9 +1,9 @@
 @import "../../../scss/abstracts/abstracts";
 $head-width: 70%;
 .Head {
-  text-align: center;
-  @include verticalCenter;
-
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   &__video {
     width: 80%;
     mask-image: url(../../../assets/images/head.svg);
