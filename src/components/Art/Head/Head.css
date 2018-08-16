@@ -1,8 +1,5 @@
 .Head {
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: relative;
   top: 50%;
   transform: perspective(1px) translateY(-50%); }

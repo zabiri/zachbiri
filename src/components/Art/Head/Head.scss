@@ -2,9 +2,6 @@
 $head-width: 70%;
 .Head {
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   @include verticalCenter;
 
   &__video {

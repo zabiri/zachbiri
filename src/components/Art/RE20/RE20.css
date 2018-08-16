@@ -1,0 +1,5 @@
+.RE20 {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: perspective(1px) translateY(-50%); }
