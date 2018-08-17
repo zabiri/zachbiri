@@ -3,6 +3,7 @@
   justify-content: center;
   flex-direction: column; }
   .Head__video {
+    margin: auto;
     width: 80%;
     mask-image: url(../../../assets/images/head.svg);
     mask-repeat: no-repeat;

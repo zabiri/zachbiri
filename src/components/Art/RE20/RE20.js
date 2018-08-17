@@ -9,24 +9,12 @@ const re20 = () => {
   return (
     <div className="RE20__container">
       <div className="RE20__pedal">
-        <img
-          className="RE20__pedal-peak"
-          alt="(peaking light)"
-          src={pedalPeak}
-        />
+        <img className="RE20__pedal-peak" alt="(peaking light)" src={pedalPeak} />
         <img className="RE20__pedal-eyes" alt="(eyes)" src={pedalEyes} />
         <img className="RE20__pedal-pedal" alt="RE201 fx pedal" src={pedal} />
         <div className="RE20__bubble">
-          <img
-            src={wordBubble}
-            alt="Sup?"
-            class="RE20__bubble-bubble"
-          />
-          <img
-            src={wordBubbleWords}
-            alt="Sup?"
-            class="RE20__bubble-words"
-          />
+          <img src={wordBubble} alt="Sup?" class="RE20__bubble-bubble" />
+          <img src={wordBubbleWords} alt="Sup?" class="RE20__bubble-words" />
         </div>
       </div>
     </div>

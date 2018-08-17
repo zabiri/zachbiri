@@ -1,5 +1,5 @@
 @import "../../../scss/abstracts/abstracts";
-@import '../../../scss/abstracts/animations/pedalanimation';
+@import "../../../scss/abstracts/animations/pedalanimation";
 @mixin pedalShadow {
   filter: drop-shadow(17px -12px 22px rgba(0, 0, 0, 0.54));
 }
@@ -19,17 +19,18 @@
     &-pedal {
       width: 100%;
       @include pedalShadow;
-      
     }
     &-peak {
       width: 100%;
       position: absolute;
       z-index: 2;
+      animation: pedalPeakBlink 1s infinite;
     }
     &-eyes {
       width: 100%;
       position: absolute;
       z-index: 2;
+      animation: pedalEyesBlink 5s infinite;
     }
   }
   &__bubble {
@@ -37,21 +38,81 @@
     width: 30%;
     right: 10%;
     top: 53%;
+    backface-visibility: hidden;
     @include pedalShadow;
+
     &-bubble {
       position: absolute;
       width: 100%;
       height: auto;
       right: 0;
-      animation  : dance 1.5s 1s infinite, pedalRubberBand 1s 0s;
-
+      animation: pedalDance 2s 1s infinite, pedalRubberBand 1s 0s;
+      backface-visibility: hidden;
     }
     &-words {
       position: absolute;
       top: 1.5vw;
       left: 38%;
       width: 41%;
-      animation  : pedalSwell 1.5s 1.5s infinite alternate, pedalTada 1s 0s;
+      animation: pedalSwell 2s 1.5s infinite alternate, pedalTada 1s 0s;
+      backface-visibility: hidden;
     }
+  }
+}
+.hidden {
+  display: none;
+}
+
+@keyframes pedalPeakBlink {
+  0% {
+    opacity: 1;
+  }
+  49% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes pedalEyesBlink {
+  0% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  46% {
+    opacity: 0;
+  }
+  48% {
+    opacity: 0;
+  }
+  49% {
+    opacity: 1;
+  }
+  51% {
+    opacity: 1;
+  }
+  52% {
+    opacity: 0;
+  }
+  54% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 1;
+  }
+  57% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
   }
 }

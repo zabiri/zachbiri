@@ -5,6 +5,7 @@ $head-width: 70%;
   justify-content: center;
   flex-direction: column;
   &__video {
+    margin: auto;
     width: 80%;
     mask-image: url(../../../assets/images/head.svg);
     mask-repeat: no-repeat;
