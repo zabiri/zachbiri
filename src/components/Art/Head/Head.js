@@ -1,5 +1,5 @@
 import React from "react";
-import HeadVideoPlaceholder from "../../../assets/images/liquidsquare.jpg";
+import HeadVideoPlaceholder from "../../../assets/images/liquidsquare.png";
 import HeadVideo from "../../../assets/video/liquidsquare.mp4";
 import "./Head.css";
 const head = () => {
