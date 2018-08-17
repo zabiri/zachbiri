@@ -3,8 +3,8 @@ import './Content.css'
 const content = (props) => {
   return (
     <main className="Content">
-        {props.left}
-        {props.right}
+        {props.copy}
+        {props.figure}
       </main>
   )
 }
