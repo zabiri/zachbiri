@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from 'react-router-dom'
 import NavIcon from "./NavIcon/NavIcon";
 import "./Nav.css";
 const nav = () => {
@@ -6,13 +7,19 @@ const nav = () => {
     <nav className="Nav">
       <ul>
         <li>
-        <NavIcon type="home"/>
+        <NavLink to ="/">
+          <NavIcon type="home"/>
+        </NavLink>
         </li>
         <li>
-        <NavIcon type="web"/>
+        <NavLink to ="/web">
+          <NavIcon type="web"/>
+        </NavLink>
         </li>
         <li>
-        <NavIcon type="music"/>
+        <NavLink to ="/audio">
+          <NavIcon type="music"/>
+        </NavLink>
         </li>
       </ul>
       
