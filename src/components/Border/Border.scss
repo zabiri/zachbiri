@@ -1,5 +1,6 @@
 @import "../../scss/abstracts/abstracts";
 .border {
+  pointer-events: none;
   left: 0;
   height: 100vh;
   position: fixed;
