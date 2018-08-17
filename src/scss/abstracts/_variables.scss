@@ -27,7 +27,7 @@ $border-height: unquote("calc(100vh - (2 * #{$border-padding}))");
 $border-z-index: 200;
 $nav-z-index: ($border-z-index + 1);
 
-$color-background-page: $palette-0;
+$color-background-page: white;
 $color-border: $palette-4;
 
 $content-margin: (($border-padding * 2) + $border-thickness);
