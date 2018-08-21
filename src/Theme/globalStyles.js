@@ -12,10 +12,10 @@ export const varBase = {
 }
 export const varMid = {
   borderWidthBottom: `calc((50% - (2 * ${varBase.borderPadding})) - (${varBase.navWidth} / 3))`,
-
   contentMargin: `calc(${varBase.borderPadding} * 2 + ${varBase.borderThickness})`,
 }
 export const theme = {
+  ...varBase,
   fontHeader: "Cormorant",
   fontParagraph: "Montserrat",
   navWidth: "15rem",
