@@ -17,11 +17,7 @@
     @include nav-sidebar;
     right: $border-bumper-displacement;
   }
-  &__top {
-    @include borderpanel(h);
-    left: $border-padding;
-    top: $border-padding;
-  }
+
   &__bottom-l {
     @include borderpanel(hb);
     left: $border-padding;

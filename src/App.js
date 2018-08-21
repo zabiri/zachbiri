@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import styled, { ThemeProvider } from "styled-components";
 
-import Border from "./components/Border/Border";
+import Border from "./components/Border/";
 import Content from "./components/Content/Content";
 import ContentNoCols from "./components/Content/ContentNoCols";
 import Nav from "./components/Nav/Nav";
@@ -15,7 +15,7 @@ import Head from "./components/Art/Head";
 import RE20 from "./components/Art/RE20";
 import WebGrid from "./components/WebGrid/WebGrid";
 
-import {theme} from './Theme/globalStyles'
+import { theme } from "./Theme/globalStyles";
 import "./App.css";
 
 class App extends Component {
