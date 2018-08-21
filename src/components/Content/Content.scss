@@ -9,3 +9,13 @@
   margin: $content-margin;
   
 }
+.ContentNoCols {
+  background-color: $color-background-page;
+  box-sizing: border-box;
+  // display: grid;
+  // grid-template-rows: 70% 1fr;
+  // grid-template-columns: 1fr;
+  height: $content-height;
+  margin: $content-margin;
+  
+}

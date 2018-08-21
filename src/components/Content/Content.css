@@ -6,3 +6,9 @@
   grid-template-columns: 50% 1fr;
   height: calc(100vh - (5rem * 2) );
   margin: 5rem; }
+
+.ContentNoCols {
+  background-color: white;
+  box-sizing: border-box;
+  height: calc(100vh - (5rem * 2) );
+  margin: 5rem; }
