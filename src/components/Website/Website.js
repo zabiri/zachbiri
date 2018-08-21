@@ -1,11 +1,21 @@
 import React from 'react'
-import './Website.css'
+import styled from 'styled-components'
+
 const website = (props) => {
+  const Website = styled.figure`
+  width: 100%;
+  `
+  const WebsiteVideo = styled.video.attrs({
+    loop: 'true',
+    autoPlay: 'true',
+  })`
+  width: 100%;
+  `
   return (
-    <figure className="Website">
-      <video loop src={props.siteVideo} className="Website__video" autoPlay/>
+    <Website>
+      <WebsiteVideo src={props.siteVideo}/>
       <p>{props.siteName}</p>
-    </figure>
+    </Website>
   )
 }
 

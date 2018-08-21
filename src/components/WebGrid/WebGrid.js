@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import "./WebGrid.css";
 import Website from "../Website/Website";
 
 import yardsandgodsVid from "../../assets/video/websites/YardsGods.mp4";

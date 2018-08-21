@@ -8,8 +8,8 @@ import Audio from "./pages/Audio/Audio";
 import Intro from "./pages/Intro/Intro";
 import Web from "./pages/Web/Web";
 
-import Head from "./components/Art/Head/Head";
-import RE20 from "./components/Art/RE20/RE20";
+import Head from "./components/Art/Head";
+import RE20 from "./components/Art/RE20";
 import WebGrid from "./components/WebGrid/WebGrid";
 
 
