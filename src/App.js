@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import styled, { ThemeProvider } from "styled-components";
 
 import Border from "./components/Border/Border";
 import Content from "./components/Content/Content";
@@ -14,7 +15,7 @@ import Head from "./components/Art/Head";
 import RE20 from "./components/Art/RE20";
 import WebGrid from "./components/WebGrid/WebGrid";
 
-
+import {theme} from './Theme/globalStyles'
 import "./App.css";
 
 class App extends Component {
@@ -30,14 +31,14 @@ class App extends Component {
       },
       web: {
         copy: <Web />,
-        figure: <WebGrid/>
+        figure: <WebGrid />
       }
     }
   };
   render() {
     return (
       <BrowserRouter>
-
+        <ThemeProvider theme={theme}>
           <main className="App">
             <Border />
             <Nav />
@@ -71,7 +72,7 @@ class App extends Component {
               />
             </Switch>
           </main>
-
+        </ThemeProvider>
       </BrowserRouter>
     );
   }
