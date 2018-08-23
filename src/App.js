@@ -4,11 +4,11 @@ import styled, { ThemeProvider } from "styled-components";
 
 import Border from "./blocks/Border/";
 import Columns from "./blocks/Columns";
-import ContentNoCols from "./components/Content/ContentNoCols";
+import NoCols from "./blocks/NoCols/";
 import Nav from "./blocks/NavPanel";
 
-import Audio from "./pages/Audio/Audio";
-import Intro from "./pages/Intro/Intro";
+import Audio from "./pages/Audio";
+import Intro from "./pages/Intro";
 import Web from "./pages/Web/Web";
 
 import AnimatedHead from "./blocks/AnimatedHead/";
@@ -46,7 +46,7 @@ class App extends Component {
               <Route
                 path="/web"
                 render={() => (
-                  <ContentNoCols
+                  <NoCols
                     copy={this.state.pages.web.copy}
                     figure={this.state.pages.web.figure}
                   />

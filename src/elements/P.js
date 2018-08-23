@@ -6,5 +6,7 @@ const P = styled.p`
   font-weight: 400;
   hyphens: auto;
   margin-bottom: 0.5rem;
+
+  
 `;
 export default P

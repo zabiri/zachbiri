@@ -7,8 +7,7 @@ const Columns = (props) => {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 50% 1fr;
-  height: ${props => props.theme.contentHeight};
-  margin: ${props => props.theme.contentMargin};`
+  padding: ${props => props.theme.contentMargin};`
   return (
     <ContentContainer>
         {props.copy}
