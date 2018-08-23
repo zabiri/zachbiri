@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Cormorant:400,500,700|Montserrat:400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700|Play:400,700");
 html {
   line-height: 1.15;
   /* 1 */
@@ -187,7 +187,7 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   font-size: 5.06rem;
-  font-weight: 400;
+  font-weight: 700;
   margin-bottom: 1rem; }
 
 p {

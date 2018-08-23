@@ -1,10 +1,10 @@
 export const varBase = {
   borderPadding: `2rem`,
-  borderThickness: "1rem",
+  borderThickness: ".5rem",
   borderZIndex: 200,
   colorBackgroundPage: "white",
-  fontHeader: "Cormorant",
-  fontParagraph: "Montserrat",
+  fontHeader: "Josefin Slab",
+  fontParagraph: "Play",
   navWidth: `15rem`,
   palette0: "#f1f0eb",
   palette1: "#d79922",

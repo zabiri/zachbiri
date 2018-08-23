@@ -1,8 +1,5 @@
 import React from "react";
-import styled from "styled-components";
 import Border from './Master'
-
-
 
 const border = () => {
   return (
