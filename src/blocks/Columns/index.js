@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-const content = (props) => {
+const Columns = (props) => {
   const ContentContainer = styled.main`
   background-color: ${props => props.theme.colorBackgroundPage};
   box-sizing: border-box;
@@ -17,4 +17,4 @@ const content = (props) => {
   )
 }
 
-export default content
+export default Columns

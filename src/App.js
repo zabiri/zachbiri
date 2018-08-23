@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import styled, { ThemeProvider } from "styled-components";
 
 import Border from "./blocks/Border/";
-import Content from "./components/Content/Content";
+import Columns from "./blocks/Columns";
 import ContentNoCols from "./components/Content/ContentNoCols";
 import Nav from "./blocks/NavPanel";
 
@@ -55,7 +55,7 @@ class App extends Component {
               <Route
                 path="/audio"
                 render={() => (
-                  <Content
+                  <Columns
                     copy={this.state.pages.audio.copy}
                     figure={this.state.pages.audio.figure}
                   />
@@ -64,7 +64,7 @@ class App extends Component {
               <Route
                 path="/"
                 render={() => (
-                  <Content
+                  <Columns
                     copy={this.state.pages.home.copy}
                     figure={this.state.pages.home.figure}
                   />

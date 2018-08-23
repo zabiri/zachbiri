@@ -3,9 +3,7 @@
   box-sizing: border-box;
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 50% 1fr;
-  height: calc(100vh - (5rem * 2) );
-  margin: 5rem; }
+  grid-template-columns: 50% 1fr; }
 
 .ContentNoCols {
   background-color: white;
