@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
-import Top from "./Top";
-import { Right, Left } from "./Sides";
-import { BottomL, BottomR } from "./Bottom";
+// import Top from "./Top";
+import { Top, Right, Left, BottomL, BottomR } from "./Sides";
 import { LBar, RBar } from './SideBars'
 
 const Border = styled.div`

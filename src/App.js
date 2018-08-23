@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import styled, { ThemeProvider } from "styled-components";
 
-import Border from "./components/Border/";
+import Border from "./blocks/Border/";
 import Content from "./components/Content/Content";
 import ContentNoCols from "./components/Content/ContentNoCols";
 import Nav from "./components/Nav/Nav";
@@ -11,11 +11,11 @@ import Audio from "./pages/Audio/Audio";
 import Intro from "./pages/Intro/Intro";
 import Web from "./pages/Web/Web";
 
-import Head from "./components/Art/Head";
-import RE20 from "./components/Art/RE20";
+import AnimatedHead from "./blocks/AnimatedHead/";
+import RE20 from "./blocks/RE20/";
 import WebGrid from "./components/WebGrid/WebGrid";
 
-import { theme } from "./Theme/globalStyles";
+import { theme } from "./theme/globalStyles";
 import "./App.css";
 
 class App extends Component {
@@ -23,7 +23,7 @@ class App extends Component {
     pages: {
       home: {
         copy: <Intro />,
-        figure: <Head />
+        figure: <AnimatedHead />
       },
       audio: {
         copy: <Audio />,

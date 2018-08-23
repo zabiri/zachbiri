@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Border from './Master'
-import "./Border.css";
+
 
 
 const border = () => {
@@ -10,7 +10,7 @@ const border = () => {
       <Border.Top />
       <Border.Right />
       <Border.BottomL />
-      <div className="border__leftbar" />
+      <Border.LBar />
       <Border.RBar />
       <Border.BottomR />
       <Border.Left />
