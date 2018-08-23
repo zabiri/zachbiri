@@ -35,56 +35,10 @@
 }
 // end Media query manager
 
-@mixin absCenter {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
-// Border panel mixin
-@mixin borderpanel($direction) {
-  background-color: $color-border;
-  position: absolute;
-  border-radius: 1rem;
-  @if $direction == h {
-    height: $border-thickness;
-    width: $border-width;
-  }
-  @if $direction == hb {
-    height: $border-thickness;
-    width: $border-width-bottom;
-  }
-  @if $direction == v {
-    height: $border-height;
-    width: $border-thickness;
-  }
-}
 
-@mixin nav-sidebar {
-    height: $border-thickness * 3;
-    background-color: $color-border;
-    border-radius: .4rem;
-    position: absolute;
-    bottom: $border-padding - 1;
-    width: $border-thickness;
-    z-index: -1;
-}
 
-@mixin verticalCenter {
-  position: relative;
-  top: 50%;
-  transform: perspective(1px) translateY(-50%);
-}
 
-@mixin textShadow {
-  text-shadow: $shadow;
-}
-@mixin hover-1 {
-  transform: scale3d(1, 1, 1) translateY(0);
-      backface-visibility: hidden;
-      &:hover {
-          transform: scale3d(1.1, 1.1, 1.1) translateY(-.3rem);
-      }
-}
+
+
 

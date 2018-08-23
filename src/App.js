@@ -5,7 +5,7 @@ import styled, { ThemeProvider } from "styled-components";
 import Border from "./blocks/Border/";
 import Content from "./components/Content/Content";
 import ContentNoCols from "./components/Content/ContentNoCols";
-import Nav from "./components/Nav/Nav";
+import Nav from "./blocks/NavPanel";
 
 import Audio from "./pages/Audio/Audio";
 import Intro from "./pages/Intro/Intro";
