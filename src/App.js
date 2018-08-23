@@ -13,7 +13,7 @@ import Web from "./pages/Web/Web";
 
 import AnimatedHead from "./blocks/AnimatedHead/";
 import RE20 from "./blocks/RE20/";
-import WebGrid from "./components/WebGrid/WebGrid";
+import WebGrid from "./blocks/WebGrid/";
 
 import { theme } from "./theme/globalStyles";
 import "./App.css";
