@@ -1,5 +1,4 @@
 import React from "react";
-import ColContent from '../blocks/ColContent'
 import Intro from '../blocks/Intro/'
 const intro = () => {
   return (
