@@ -9,15 +9,14 @@ import Nav from "./blocks/NavPanel";
 
 import Audio from "./pages/Audio";
 import Intro from "./pages/Intro";
-import Web from "./pages/Web/Web";
+import Web from "./pages/Web";
 
 import AnimatedHead from "./blocks/AnimatedHead/";
 import RE20 from "./blocks/RE20/";
-import PicOfMe from './blocks/PicOfMe/'
 import WebGrid from "./blocks/WebGrid/";
 
 import { theme } from "./theme/globalStyles";
-import "./App.css";
+
 
 class App extends Component {
   state = {

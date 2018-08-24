@@ -4,5 +4,6 @@ const Video = styled.video.attrs({
   autoPlay: "true"
 })`
   width: 100%;
+  border-radius: .5rem .5rem 0 0
 `;
 export default Video;

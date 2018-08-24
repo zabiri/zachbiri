@@ -1,12 +1,18 @@
 import React from "react";
-import Container from "./Container";
+import styled from "styled-components";
+import WebSite from "./WebSite";
 import Video from "./Video";
 const website = props => {
+  const InfoContainer = styled.div`
+    padding: .2rem 1.6rem;
+  `;
   return (
-    <Container>
+    <WebSite>
       <Video src={props.siteVideo} />
-      <p>{props.siteName}</p>
-    </Container>
+      <InfoContainer>
+        <p>{props.siteName}</p>
+      </InfoContainer>
+    </WebSite>
   );
 };
 
