@@ -1,15 +1,2 @@
 .Web {
-  color: #040136;
-  text-align: justify;
   margin: auto; }
-  .Web__header {
-    text-align: center;
-    color: #421093;
-    font-weight: 500; }
-  .Web__paragraph-icons {
-    text-align: center;
-    font-size: 3rem;
-    padding: 2rem 0; }
-    .Web__paragraph-icons i {
-      display: inline-block;
-      margin-right: 1rem; }

@@ -74,6 +74,7 @@ class App extends Component {
             </Switch> */}
             
   <Columns right={<Intro/>} left={<AnimatedHead/>}/>
+  <NoCols top={<Web />} bottom ={<WebGrid/>}/>
   <Columns left={<Audio/>} right={<RE20/>}/>
           </main>
         </ThemeProvider>

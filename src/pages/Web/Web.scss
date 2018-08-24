@@ -1,29 +1,6 @@
 @import "../../scss/abstracts/abstracts";
 
 .Web {
-  color: $palette-3;
-  text-align: justify;
-
   margin:auto;
-  &__header {
-    text-align: center;
-    color: $palette-4;
-    font-weight: 500;
-    // @include textShadow;
-    
-  }
-  &__box {
-    // @include verticalCenter;
-  }
-  &__paragraph {
-    &-icons {
-      text-align: center;
-      font-size: 3rem;
-      padding: 2rem 0;
-      & i {
-        display: inline-block;
-        margin-right: 1rem;
-      }
-    }
-  }
+
 }
