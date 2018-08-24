@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700|Play:400,700");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700|Open+Sans:400,700");
 html {
   line-height: 1.15;
   /* 1 */
@@ -181,6 +181,3 @@ template {
 
 html {
   font-size: 62.5%; }
-
-body {
-  background-color: white; }

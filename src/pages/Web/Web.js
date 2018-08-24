@@ -16,7 +16,7 @@ const web = () => {
   return (
     <article className="Web">
       <div className="Web__box">
-        <PicOfMe src={me} />
+        {/* <PicOfMe src={me} /> */}
         <p className="Web__paragraph">
           Hello, I'm Zach Biri.  I am a front-end web developer with experience in: 
         </p>

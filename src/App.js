@@ -13,6 +13,7 @@ import Web from "./pages/Web/Web";
 
 import AnimatedHead from "./blocks/AnimatedHead/";
 import RE20 from "./blocks/RE20/";
+import PicOfMe from './blocks/PicOfMe/'
 import WebGrid from "./blocks/WebGrid/";
 
 import { theme } from "./theme/globalStyles";
@@ -42,7 +43,7 @@ class App extends Component {
           <main className="App">
             <Border />
             <Nav />
-            <Switch>
+             {/* <Switch>
               <Route
                 path="/web"
                 render={() => (
@@ -65,12 +66,15 @@ class App extends Component {
                 path="/"
                 render={() => (
                   <Columns
-                    copy={this.state.pages.home.copy}
-                    figure={this.state.pages.home.figure}
+                    figure={this.state.pages.home.copy}
+                    copy={this.state.pages.home.figure}
                   />
                 )}
               />
-            </Switch>
+            </Switch> */}
+            
+  <Columns right={<Intro/>} left={<AnimatedHead/>}/>
+  <Columns left={<Audio/>} right={<RE20/>}/>
           </main>
         </ThemeProvider>
       </BrowserRouter>

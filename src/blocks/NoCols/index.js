@@ -1,21 +1,21 @@
 import React from "react";
 
-import styled from 'styled-components'
+import styled from "styled-components";
 const contentNoCols = props => {
-  const rows = styled.main`
-    background-color: $color-background-page;
+  const Rows = styled.main`
+    background-color: ${props => props.theme.colorBackgroundPage};
     box-sizing: border-box;
-    // display: grid;
-  // grid-template-rows: 70% 1fr;
-  // grid-template-columns: 1fr;
-    height: $content-height;
-    margin: $content-margin;
+    display: grid;
+    grid-template-rows: 30% 1fr;
+    grid-template-columns: 1fr;
+    
+    margin: ${props=>props.theme.contentMargin};
   `;
   return (
-    <rows>
-      {props.copy}
-      {props.figure}
-    </rows>
+    <Rows>
+      {props.top}
+      {props.bottom}
+    </Rows>
   );
 };
 

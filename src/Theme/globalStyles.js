@@ -4,7 +4,7 @@ export const varBase = {
   borderZIndex: 200,
   colorBackgroundPage: "white",
   fontHeader: "Josefin Slab",
-  fontParagraph: "Play",
+  fontParagraph: "Open Sans",
   navWidth: `15rem`,
   palette0: "#f1f0eb",
   palette1: "#d79922",

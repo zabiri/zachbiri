@@ -14,11 +14,11 @@ const Video = styled.video.attrs({
   children: <source src={HeadVideo} />
 })`
   margin: auto;
-  width: 80%;
+  width:100%;
   mask-image: url(${HeadSVG});
   mask-repeat: no-repeat;
   mask-position: center;
-  transform: translate3d(6%, 0, 0);
+  /* transform: translate3d(6%, 0, 0); */
   backface-visibility: hidden;
   animation: ${HairBounceIn} 1s 0s;
   filter: drop-shadow(

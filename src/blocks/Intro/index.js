@@ -3,19 +3,20 @@ import styled from "styled-components";
 import P from "../../elements/P";
 import H1 from "../../elements/H1";
 
-const ColContent = props => {
+const Intro = props => {
   const Container = styled.article`
     margin: auto;
     /* padding-left: 2rem; */
     /* padding-right: 7rem; */
-    text-align: ${props => (props.center ? "center" : "left")};
+    background-color: yellow;
+    width: 80%;
   `;
   return (
-    <Container {...props}>
-      <H1>{props.header}</H1>
-      <P {...props}>{props.children}</P>
+    <Container>
+      <H1 center>Hi, I'm Zach Biri</H1>
+      <P>{props.children}</P>
     </Container>
   );
 };
 
-export default ColContent;
+export default Intro;

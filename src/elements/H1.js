@@ -7,6 +7,7 @@ const H1 = styled.h1`
   /* letter-spacing: -.1rem; */
   margin-bottom: 1rem;
   color: ${props=>props.theme.palette4};
-  ${textShadow}
+  ${textShadow};
+  text-align: ${props => props.center ? 'center':'left'}
 `;
 export default H1;
