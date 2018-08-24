@@ -3,7 +3,7 @@ import ColContent from '../ColContent'
 const audio = () => {
   return (
     <ColContent header="Music & Audio">
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, obcaecati eius. Quod non omnis voluptas quis amet expedita ipsa quam libero cupiditate optio animi, sed autem. Ea, maxime. Quidem, odio.
+    I am also a musician and audio-engineer.  I play in a band called Enemy Airship.  I run a recording and A/V studio called Yard & Gods.
     </ColContent>
   )
 }

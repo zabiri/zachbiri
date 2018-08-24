@@ -12,6 +12,7 @@ const webGrid = props => {
       info={site.info}
       tech={site.tech}
       github={site.github}
+      link={site.link}
     />
   ));
   return <Webgrid>{webPortfolio}</Webgrid>;

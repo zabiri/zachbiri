@@ -101,6 +101,10 @@ const TechIcon = props => {
   const Icon = styled.img`
     height: 2rem;
     margin: 0.25rem;
+    transition: transform 200ms ease-in-out;
+    :hover {
+      transform: scale(1.3);
+    }
   `;
   return (
     <a href={link} target="_blank">

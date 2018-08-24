@@ -42,7 +42,7 @@ const portfolio = [
     info:
       "Rendr is a pop-up technology-based art gallery hosted by 1871, a tech incubator in Chicago.",
     github: null,
-    link: "http://rendr.com",
+    link: "http://rendrpopup.com",
     tech: ["js", "html", "sass", "bootstrap", "fontawesome"],
     video: rendrVid
   },
@@ -59,7 +59,7 @@ const portfolio = [
     name: "Burger Builder",
     info:
       "This React+Redux+Router app was the course project for Max Schwarzmüller's 'Complete Guide' React course.",
-    github: null,
+    github: "https://github.com/zabiri/burgerbuilder",
     link: "http://zachbiri.com/sandbox/burger",
     tech: ["react", "redux", "router", "firebase"],
     video: burgerVid
@@ -68,7 +68,7 @@ const portfolio = [
     name: "Another To-Do List",
     info:
       "I made this as an exercise in Colt Steele's 'Web Developer Bootcamp' course.",
-    github: null,
+    github: "https://github.com/zabiri/simple-todo-list",
     link: "http://zachbiri.com/sandbox/todo",
     tech: ["js", "jquery", "css", "html", "bootstrap", "fontawesome"],
     video: todoVid
@@ -77,7 +77,7 @@ const portfolio = [
     name: "Scorekeeper",
     info:
       "Started from a JS exercise I was reading, but I got carried away adding extra features and styling to it.",
-    github: null,
+    github: "https://github.com/zabiri/scorekeeper",
     link: "http://zachbiri.com/sandbox/sk",
     tech: ["js", "css", "html", "bootstrap", "fontawesome"],
     video: scorekeeperVid
@@ -86,7 +86,7 @@ const portfolio = [
     name: "HEX Color Guessing Game",
     info:
       "Also made as part of Colt Steele's 'Web Developer Bootcamp', this is a vanilla javascript HEX color guessing game.",
-    github: null,
+    github: "https://github.com/zabiri/rgbcolor-game",
     link: "http://zachbiri.com/sandbox/cp",
     tech: ["js", "css", "html"],
     video: colorpickerVid

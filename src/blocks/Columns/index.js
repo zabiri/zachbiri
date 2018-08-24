@@ -8,6 +8,7 @@ const Columns = props => {
     grid-template-rows: 1fr;
     grid-template-columns: 50% 1fr;
     padding: calc(${props => props.theme.contentMargin} + 2rem);
+    min-height: 100vh;
   `;
   return (
     <ContentContainer>

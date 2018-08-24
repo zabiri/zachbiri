@@ -4,6 +4,11 @@ const WebSite = styled.figure`
   box-shadow: 0 .4rem .8rem 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: .5rem; /* 5rem rounded corners */
+  background-color: white;
+  a {
+    text-decoration: none;
+    color: black;
+  }
   :hover {
   box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
 }

@@ -9,19 +9,20 @@ const Intro = props => {
     /* padding-left: 2rem; */
     /* padding-right: 7rem; */
     padding: 4rem 3rem;
-    background-color: #fffeef;
+    background-color: white;
     width: 90%;
     position: relative;
-    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.2);
-    border-radius: 5rem;
-    border: #421093 solid 5px;
+    
+    filter: drop-shadow(-5px -5px 10px rgba(0,0,0,.5));
+    border-radius: 7rem;
+    /* border: #421093 solid 5px; */
     backface-visibility: hidden;
     :after {
       content: "";
       position: absolute;
       border-style: solid;
       border-width: 15px 15px 15px 0;
-      border-color: transparent #fffeef;
+      border-color: transparent white;
       display: block;
       width: 0;
       z-index: 1;
@@ -30,7 +31,7 @@ const Intro = props => {
       top: 50%;
     }
 
-    :before {
+    /* :before {
       content: "";
       position: absolute;
       border-style: solid;
@@ -42,7 +43,7 @@ const Intro = props => {
       margin-top: -19px;
       left: -24px;
       top: 50%;
-    }
+    } */
   `;
   return (
     <Container>
