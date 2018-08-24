@@ -7,9 +7,9 @@ import Columns from "./blocks/Columns";
 import NoCols from "./blocks/NoCols/";
 import Nav from "./blocks/NavPanel";
 
-import Audio from "./pages/Audio";
-import Intro from "./pages/Intro";
-import Web from "./pages/Web";
+import Audio from "./blocks/AudioCopy/";
+import Intro from "./blocks/IntroCopy/";
+import Web from "./blocks/WebCopy/";
 
 import AnimatedHead from "./blocks/AnimatedHead/";
 import RE20 from "./blocks/RE20/";

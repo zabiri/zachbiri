@@ -1,5 +1,5 @@
 import React from 'react'
-import ColContent from '../blocks/ColContent'
+import ColContent from '../ColContent'
 const audio = () => {
   return (
     <ColContent header="Music & Audio">

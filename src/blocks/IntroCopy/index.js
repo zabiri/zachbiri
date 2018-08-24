@@ -1,5 +1,5 @@
 import React from "react";
-import Intro from '../blocks/Intro/'
+import Intro from '../Intro'
 const intro = () => {
   return (
     <Intro header="Hi, I'm Zach Biri" intro>
