@@ -6,9 +6,10 @@ import WebDevelopment from "./components/WebDevelopment";
 import Audio from "./components/Audio";
 import Nav from "./blocks/NavPanel";
 import { theme } from "./theme/globalStyles";
-import ScrollableAnchor from "react-scrollable-anchor";
+import ScrollableAnchor, { configureAnchors } from "react-scrollable-anchor";
 class App extends Component {
   render() {
+    configureAnchors({keepLastAnchorHash: false})
     return (
       <ThemeProvider theme={theme}>
         <main className="App">
