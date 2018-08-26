@@ -2,10 +2,9 @@ import React, { Component } from "react";
 import styled, { ThemeProvider } from "styled-components";
 import Border from "./blocks/Border/";
 import Intro from "./components/Intro";
-import WebDevelopment from './components/WebDevelopment'
-import Audio from './components/Audio'
+import WebDevelopment from "./components/WebDevelopment";
+import Audio from "./components/Audio";
 import Nav from "./blocks/NavPanel";
-
 import { theme } from "./theme/globalStyles";
 
 class App extends Component {
@@ -15,9 +14,9 @@ class App extends Component {
         <main className="App">
           <Border />
           <Nav />
-          <Intro/>
-          <WebDevelopment/>
-          <Audio/>
+          <Intro />
+          <WebDevelopment />
+          <Audio />
         </main>
       </ThemeProvider>
     );

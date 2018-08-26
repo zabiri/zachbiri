@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-
+import respond from '../../mixins/respond'
 const webRows = props => {
   const WebRows = styled.section`
     background-color: ${props => props.theme.colorBackgroundPage};
@@ -35,6 +35,7 @@ const webRows = props => {
       10% 99%,
       0% 100%
     );
+
   `;
   return <WebRows>{props.children}</WebRows>;
 };

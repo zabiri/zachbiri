@@ -2,7 +2,7 @@ import React from "react";
 import Website from "../Website/";
 import Webgrid from "./Container";
 import portfolio from "./Portfolio";
-
+import Fade from "react-reveal/Fade";
 const webGrid = props => {
   const webPortfolio = portfolio.map(site => (
     <Website
@@ -15,7 +15,11 @@ const webGrid = props => {
       link={site.link}
     />
   ));
-  return <Webgrid>{webPortfolio}</Webgrid>;
+  return (
+    <Webgrid>
+      <Fade bottom>{webPortfolio}</Fade>
+    </Webgrid>
+  );
 };
 
 export default webGrid;
