@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import P from "../../elements/P";
 import H1 from "../../elements/H1";
-
+import respond from "../../mixins/respond";
 const Intro = props => {
   const Container = styled.article`
     margin: auto;
@@ -12,8 +12,8 @@ const Intro = props => {
     background-color: white;
     width: 90%;
     position: relative;
-    
-    filter: drop-shadow(-5px -5px 10px rgba(0,0,0,.5));
+
+    filter: drop-shadow(-5px -5px 10px rgba(0, 0, 0, 0.5));
     border-radius: 7rem;
     /* border: #421093 solid 5px; */
     backface-visibility: hidden;
@@ -29,21 +29,19 @@ const Intro = props => {
       margin-top: -15px;
       left: -15px;
       top: 50%;
+      ${respond.phone`
+    content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 15px 15px;
+border-color: #FFFFFF transparent;
+display: block;
+width: 0;
+z-index: 1;
+margin-left: -15px;
+top: 1%;
+left: 50%;`};
     }
-
-    /* :before {
-      content: "";
-      position: absolute;
-      border-style: solid;
-      border-width: 19px 19px 19px 0;
-      border-color: transparent #421093;
-      display: block;
-      width: 0;
-      z-index: 0;
-      margin-top: -19px;
-      left: -24px;
-      top: 50%;
-    } */
   `;
   return (
     <Container>

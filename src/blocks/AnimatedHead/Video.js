@@ -18,7 +18,7 @@ const Video = styled.video.attrs({
   mask-image: url(${HeadSVG});
   mask-repeat: no-repeat;
   mask-position: center;
-  /* transform: translate3d(6%, 0, 0); */
+  transform: translate3d(5%, 0, 0);
   backface-visibility: hidden;
   animation: ${HairBounceIn} 1s 0s;
   filter: drop-shadow(

@@ -13,21 +13,24 @@ import { css } from "styled-components";
 // 1em = 16px
 // -------------------
 const sizes = {
-  phone: 600,
-  tabport: 900,
-  tabland: 1200
-};
+  phone: 599,
+  tabland: 899,
+  tabport: 1119,
+  desktop: 999999999
+}
 
-const media = Object.keys(sizes).reduce((acc, label) => {
+// Iterate through the sizes and create a media template
+const respond = Object.keys(sizes).reduce((acc, label) => {
   acc[label] = (...args) => css`
     @media (max-width: ${sizes[label] / 16}em) {
-      ${css(...args)};
+      ${css(...args)}
     }
-  `;
-  return acc;
-}, {});
+  `
 
-// usage:  ${media.desktop`background: dodgerblue;`}
+  return acc
+}, {})
+
+// usage:  ${respond.desktop`background: dodgerblue;`}
 
 // end Media query manager
-export default media;
+export default respond;
