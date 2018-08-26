@@ -26,10 +26,13 @@ const H1 = styled.h1`
   font-size: 4rem;
   `}
   ${respond.midphone`
-  font-size: 3rem;
+  font-size: 3.5rem;
   `}
   ${respond.smallphone`
-  font-size: 2.5rem;
+  font-size: 3rem;
+  `}
+  ${respond.smallest`
+  font-size: 2.7rem;
   `}
 `;
 export default H1;
