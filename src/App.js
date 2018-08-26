@@ -4,6 +4,10 @@ import styled, { ThemeProvider } from "styled-components";
 
 import Border from "./blocks/Border/";
 import Columns from "./blocks/Columns";
+
+import WebDevelopment from './components/WebDevelopment'
+
+
 import NoCols from "./blocks/NoCols/";
 import Nav from "./blocks/NavPanel";
 
@@ -18,22 +22,6 @@ import WebGrid from "./blocks/WebGrid/";
 import { theme } from "./theme/globalStyles";
 
 class App extends Component {
-  state = {
-    pages: {
-      home: {
-        copy: <Intro />,
-        figure: <AnimatedHead />
-      },
-      audio: {
-        copy: <Audio />,
-        figure: <RE20 />
-      },
-      web: {
-        copy: <Web />,
-        figure: <WebGrid />
-      }
-    }
-  };
   render() {
     return (
       <ThemeProvider theme={theme}>
@@ -41,7 +29,7 @@ class App extends Component {
           <Border />
           <Nav />
           <Columns right={<Intro />} left={<AnimatedHead />} />
-          <NoCols top={<Web />} bottom={<WebGrid />} />
+          <WebDevelopment/>
           <Columns left={<Audio />} right={<RE20 />} />
         </main>
       </ThemeProvider>
