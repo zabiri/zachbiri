@@ -10,7 +10,7 @@ const audio = props => {
   const Container = styled.article`
     margin: auto;
     text-align: ${props => (props.center ? "center" : "left")};
-    ${respond.tabsmall`
+    ${respond.upto699`
       margin-top: 2rem;
     `};
   `;

@@ -16,7 +16,7 @@ const intro = props => {
     ${respond.upto899`
         min-height: 90vh;
     `}
-    ${respond.tabsmall`
+    ${respond.upto699`
         grid-template-rows: 50% 50%;
         grid-template-columns: 1fr;
         padding: ${props => props.theme.contentMargin};

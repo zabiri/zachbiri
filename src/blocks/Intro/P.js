@@ -18,11 +18,11 @@ const P = styled.p`
     font-size: 1.65rem;  
     
   `}
-  ${respond.upto699`
+  ${respond.upto799`
     font-size: 1.5rem;  
     
   `}
-  ${respond.tabsmall`
+  ${respond.upto699`
     font-size: 2rem;  
     
   `}

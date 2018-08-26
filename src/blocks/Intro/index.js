@@ -18,7 +18,7 @@ const Intro = props => {
     ${respond.upto899`
       width: 100%;
     `} 
-    ${respond.tabsmall`
+    ${respond.upto699`
       width: 90%;
     `}
     ${respond.upto399`
@@ -36,7 +36,7 @@ const Intro = props => {
       margin-top: -15px;
       left: -15px;
       top: 50%;
-      ${respond.tabsmall`
+      ${respond.upto699`
         content: '';
         position: absolute;
         border-style: solid;

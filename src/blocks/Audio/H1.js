@@ -15,10 +15,10 @@ const H1 = styled.h1`
   ${respond.upto899`
   font-size: 3.5rem;
   `}
-  ${respond.upto699`
+  ${respond.upto799`
   font-size: 3rem;
   `}
-  ${respond.tabsmall`
+  ${respond.upto699`
   text-align: center;
   font-size: 4rem;
   `}

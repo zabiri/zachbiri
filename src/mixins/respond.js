@@ -17,8 +17,8 @@ const sizes = {
   upto399:399,
   upto499: 499,
   upto599: 599,
-  tabsmall: 699,
-  upto699: 799,
+  upto699: 699,
+  upto799: 799,
   upto899: 899,
   tabland: 1119
 }

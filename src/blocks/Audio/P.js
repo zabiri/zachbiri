@@ -13,9 +13,9 @@ const P = styled.p`
     hyphens: none;
   `} ${respond.upto899`
     font-size: 1.65rem;  
-  `} ${respond.upto699`
+  `} ${respond.upto799`
     font-size: 1.5rem;  
-  `} ${respond.tabsmall`
+  `} ${respond.upto699`
     font-size: 2rem;  
   `} ${respond.upto599`
     font-size: 1.8rem;  
