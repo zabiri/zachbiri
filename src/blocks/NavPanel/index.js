@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import Panel from "./Panel";
 import NavIcon from "../NavIcon";
 
@@ -8,19 +7,13 @@ const nav = props => {
     <Panel>
       <Panel.List>
         <Panel.List.Item>
-          <NavLink to="/">
-            <NavIcon type="home" />
-          </NavLink>
+          <NavIcon type="home" />
         </Panel.List.Item>
         <Panel.List.Item>
-          <NavLink to="/web">
-            <NavIcon type="web" />
-          </NavLink>
+          <NavIcon type="web" />
         </Panel.List.Item>
         <Panel.List.Item>
-          <NavLink to="/audio">
-            <NavIcon type="music" />
-          </NavLink>
+          <NavIcon type="music" />
         </Panel.List.Item>
       </Panel.List>
     </Panel>

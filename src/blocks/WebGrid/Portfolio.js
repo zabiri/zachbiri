@@ -41,7 +41,7 @@ const portfolio = [
     name: "Rendr",
     info:
       "Rendr is a pop-up technology-based art gallery hosted by 1871, a tech incubator in Chicago.",
-    github: null,
+    github: "https://github.com/zabiri/rendrpopup",
     link: "http://rendrpopup.com",
     tech: ["js", "html", "sass", "bootstrap", "fontawesome"],
     video: rendrVid
