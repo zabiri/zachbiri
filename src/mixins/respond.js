@@ -13,6 +13,7 @@ import { css } from "styled-components";
 // 1em = 16px
 // -------------------
 const sizes = {
+  smallest: 299,
   smallphone:399,
   midphone: 499,
   phone: 599,
