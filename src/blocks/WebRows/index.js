@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import respond from '../../mixins/respond'
 const webRows = props => {
   const WebRows = styled.section`
     background-color: ${props => props.theme.colorBackgroundPage};

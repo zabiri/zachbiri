@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import Audio from '../blocks/Audio/'
 import RE20 from '../blocks/RE20/'
-import Fade from "react-reveal/Fade";
 import respond from "../mixins/respond.js";
 const audio = props => {
   const ContentContainer = styled.main`
