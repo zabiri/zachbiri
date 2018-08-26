@@ -13,7 +13,7 @@ const intro = props => {
     grid-template-columns: 50% 1fr;
     padding: calc(${props => props.theme.contentMargin} + 2rem);
     min-height: 100vh;
-    ${respond.tablarge`
+    ${respond.upto899`
         min-height: 90vh;
     `}
     ${respond.tabsmall`

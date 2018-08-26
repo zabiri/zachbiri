@@ -15,13 +15,13 @@ const Intro = props => {
     filter: drop-shadow(-5px -5px 10px rgba(0, 0, 0, 0.5));
     border-radius: 7rem;
     backface-visibility: hidden;
-    ${respond.tablarge`
+    ${respond.upto899`
       width: 100%;
     `} 
     ${respond.tabsmall`
       width: 90%;
     `}
-    ${respond.smallphone`
+    ${respond.upto399`
       width: 100%; 
       padding: 4rem 2rem`};
     :after {

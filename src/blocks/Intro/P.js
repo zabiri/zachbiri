@@ -14,11 +14,11 @@ const P = styled.p`
     text-indent: .5rem;
     hyphens: none;
   `}
-  ${respond.tablarge`
+  ${respond.upto899`
     font-size: 1.65rem;  
     
   `}
-  ${respond.tabmid`
+  ${respond.upto699`
     font-size: 1.5rem;  
     
   `}
@@ -26,15 +26,15 @@ const P = styled.p`
     font-size: 2rem;  
     
   `}
-  ${respond.phone`
+  ${respond.upto599`
     font-size: 1.8rem;  
     
   `}
-  ${respond.midphone`
+  ${respond.upto499`
     font-size: 1.5rem;  
     
   `}
-  ${respond.smallphone`
+  ${respond.upto399`
     font-size: 1.2rem;  
   `}
 `;

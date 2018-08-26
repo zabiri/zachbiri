@@ -12,26 +12,26 @@ const H1 = styled.h1`
   ${respond.tabland`
   font-size: 3.5rem;
   `}
-  ${respond.tablarge`
+  ${respond.upto899`
   font-size: 3.5rem;
   `}
-  ${respond.tabmid`
+  ${respond.upto699`
   font-size: 3rem;
   `}
   ${respond.tabsmall`
   text-align: center;
   font-size: 4rem;
   `}
-  ${respond.phone`
+  ${respond.upto599`
   font-size: 4rem;
   `}
-  ${respond.midphone`
+  ${respond.upto499`
   font-size: 3.5rem;
   `}
-  ${respond.smallphone`
+  ${respond.upto399`
   font-size: 3rem;
   `}
-  ${respond.smallest`
+  ${respond.upto299`
   font-size: 2.7rem;
   `}
 `;

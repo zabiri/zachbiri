@@ -6,22 +6,21 @@ import { css } from "styled-components";
 // [1200-1800] is where our normal styles apply
 // 1800+: big desktop
 //  choices for breakpoint argument:
-// -phone
+// -upto599
 // -tab-port
 // -tab-land
 // -big-desktop
 // 1em = 16px
 // -------------------
 const sizes = {
-  smallest: 299,
-  smallphone:399,
-  midphone: 499,
-  phone: 599,
+  upto299: 299,
+  upto399:399,
+  upto499: 499,
+  upto599: 599,
   tabsmall: 699,
-  tabmid: 799,
-  tablarge: 899,
-  tabland: 1119,
-  desktop: 999999999
+  upto699: 799,
+  upto899: 899,
+  tabland: 1119
 }
 
 // Iterate through the sizes and create a media template

@@ -11,20 +11,20 @@ const P = styled.p`
    ${respond.tabland`
     font-size: 1.8rem;  
     hyphens: none;
-  `} ${respond.tablarge`
+  `} ${respond.upto899`
     font-size: 1.65rem;  
-  `} ${respond.tabmid`
+  `} ${respond.upto699`
     font-size: 1.5rem;  
   `} ${respond.tabsmall`
     font-size: 2rem;  
-  `} ${respond.phone`
+  `} ${respond.upto599`
     font-size: 1.8rem;  
-  `} ${respond.midphone`
+  `} ${respond.upto499`
     font-size: 1.7rem;  
-  `} ${respond.smallphone`
+  `} ${respond.upto399`
     font-size: 1.5rem;
     margin-bottom: 1.2rem;  
-  `} ${respond.smallest`
+  `} ${respond.upto299`
     font-size: 1.5rem;
     margin-bottom: 1.2rem;  
   `};
