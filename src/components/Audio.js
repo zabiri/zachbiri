@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import AudioCopy from '../blocks/AudioCopy/'
+import Audio from '../blocks/Audio/'
 import RE20 from '../blocks/RE20/'
 
 import respond from "../mixins/respond.js";
@@ -11,16 +11,18 @@ const audio = props => {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 50% 1fr;
+    padding: calc(${props => props.theme.contentMargin} + 2rem);
+    min-height: 100vh;
     ${respond.tabsmall`
     display: flex;
     flex-direction: column-reverse;
+    padding: ${props => props.theme.contentMargin};
+    min-height: auto;
     `}
-    padding: calc(${props => props.theme.contentMargin} + 2rem);
-    min-height: 100vh;
   `;
   return (
     <ContentContainer>
-      <AudioCopy/>
+      <Audio/>
       <RE20/>
     </ContentContainer>
   );
