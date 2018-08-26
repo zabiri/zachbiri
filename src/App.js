@@ -5,6 +5,7 @@ import styled, { ThemeProvider } from "styled-components";
 import Border from "./blocks/Border/";
 import Columns from "./blocks/Columns";
 
+import Intro from "./components/Intro";
 import WebDevelopment from './components/WebDevelopment'
 
 
@@ -12,7 +13,6 @@ import NoCols from "./blocks/NoCols/";
 import Nav from "./blocks/NavPanel";
 
 import Audio from "./blocks/AudioCopy/";
-import Intro from "./blocks/IntroCopy/";
 import Web from "./blocks/WebCopy/";
 
 import AnimatedHead from "./blocks/AnimatedHead/";
@@ -28,7 +28,7 @@ class App extends Component {
         <main className="App">
           <Border />
           <Nav />
-          <Columns right={<Intro />} left={<AnimatedHead />} />
+          <Intro/>
           <WebDevelopment/>
           <Columns left={<Audio />} right={<RE20 />} />
         </main>

@@ -13,9 +13,13 @@ import { css } from "styled-components";
 // 1em = 16px
 // -------------------
 const sizes = {
+  smallphone:399,
+  midphone: 499,
   phone: 599,
-  tabland: 899,
-  tabport: 1119,
+  tabsmall: 699,
+  tabmid: 799,
+  tablarge: 899,
+  tabland: 1119,
   desktop: 999999999
 }
 

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import P from "../../elements/P";
-import H1 from "../../elements/H1";
+import P from "./P";
+import H1 from "./H1";
 import respond from "../../mixins/respond";
 const Intro = props => {
   const Container = styled.article`
@@ -12,11 +12,18 @@ const Intro = props => {
     background-color: white;
     width: 90%;
     position: relative;
-
     filter: drop-shadow(-5px -5px 10px rgba(0, 0, 0, 0.5));
     border-radius: 7rem;
-    /* border: #421093 solid 5px; */
     backface-visibility: hidden;
+    ${respond.tablarge`
+      width: 100%;
+    `} 
+    ${respond.tabsmall`
+      width: 90%;
+    `}
+    ${respond.smallphone`
+      width: 100%; 
+      padding: 4rem 2rem`};
     :after {
       content: "";
       position: absolute;
@@ -29,26 +36,27 @@ const Intro = props => {
       margin-top: -15px;
       left: -15px;
       top: 50%;
-      ${respond.phone`
-    content: '';
-position: absolute;
-border-style: solid;
-border-width: 0 15px 15px;
-border-color: #FFFFFF transparent;
-display: block;
-width: 0;
-z-index: 1;
-margin-left: -15px;
-top: 1%;
-left: 50%;`};
+      ${respond.tabsmall`
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 0 15px 15px;
+        border-color: #FFFFFF transparent;
+        display: block;
+        width: 0;
+        z-index: 1;
+        margin-left: -15px;
+        top: 1%;
+        left: 50%;`};
     }
   `;
   return (
     <Container>
-      <H1 center intro>
-        Hi, I'm Zach Biri
-      </H1>
-      <P center>{props.children}</P>
+      <H1>Hi, I'm Zach Biri</H1>
+      <P>
+        I'm a web developer, designer, musician, & audio engineer in St. Louis,
+        MO
+      </P>
     </Container>
   );
 };
