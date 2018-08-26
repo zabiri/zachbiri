@@ -11,7 +11,7 @@ const H1 = styled.h1`
   ${textShadow};
   text-align: center;
 
-  ${respond.tabland`
+  ${respond.upto1119`
   font-size: 3.5rem;
   `}
   ${respond.upto899`

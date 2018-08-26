@@ -9,7 +9,7 @@ const P = styled.p`
   margin-bottom: 0.5rem;
   text-align: center;
 
-  ${respond.tabland`
+  ${respond.upto1119`
     font-size: 1.8rem;  
     text-indent: .5rem;
     hyphens: none;

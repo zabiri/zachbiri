@@ -20,7 +20,7 @@ const sizes = {
   upto699: 699,
   upto799: 799,
   upto899: 899,
-  tabland: 1119
+  upto1119: 1119
 }
 
 // Iterate through the sizes and create a media template
