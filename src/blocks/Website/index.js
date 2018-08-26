@@ -58,7 +58,7 @@ const website = props => {
     text-align: right;
   `;
 
-  const techUsed = props.tech.map(icon => <TechIcon tech={icon} />);
+  const techUsed = props.tech.map(icon => <TechIcon key={icon+props.siteName} tech={icon} />);
   return (
     <WebSite>
       <a href={props.link} target="_blank">
