@@ -6,10 +6,10 @@ import HeadVideo from "../../assets/video/liquidsquare.mp4";
 import HeadVideowebm from "../../assets/video/liquidsquare.webmsd.webm";
 import HeadVideoPlaceholder from "../../assets/images/liquidsquare.png";
 const Video = styled.video.attrs({
-  muted: true,
-  playsInline: true,
-  autoPlay: true,
-  loop: true,
+  muted: 'true',
+  playsInline: 'true',
+  autoPlay: 'true',
+  loop: 'true',
   poster: { HeadVideoPlaceholder },
   children: [<source src={HeadVideo} key="headmp4" />, <source src={HeadVideowebm} key="headwebm"/>]
 })`
