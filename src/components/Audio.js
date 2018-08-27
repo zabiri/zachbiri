@@ -11,7 +11,7 @@ const audio = props => {
     grid-template-rows: 1fr;
     grid-template-columns: 50% 1fr;
     padding: calc(${props => props.theme.contentMargin} + 2rem);
-    min-height: 100vh;
+    min-height: 50vh;
     ${respond.upto699`
     display: flex;
     flex-direction: column-reverse;
