@@ -134,4 +134,12 @@ const pedalEyesBlink = keyframes`
     }
 `;
 
-export { pedalBounceIn, pedalDance, pedalEyesBlink, pedalPeakBlink, pedalRubberBand, pedalSwell, pedalTada}
+export {
+  pedalBounceIn,
+  pedalDance,
+  pedalEyesBlink,
+  pedalPeakBlink,
+  pedalRubberBand,
+  pedalSwell,
+  pedalTada
+};

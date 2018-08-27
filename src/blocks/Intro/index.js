@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import P from "./P";
 import H1 from "./H1";
+import P from "./P";
 import respond from "../../mixins/respond";
 const Intro = props => {
   const Container = styled.article`

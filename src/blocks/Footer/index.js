@@ -24,7 +24,6 @@ const footerContainer = styled.footer`
   
   `};
 `;
-
 footerContainer.Flex = Flex;
 footerContainer.Logobox = Logobox;
 footerContainer.Left = Left;

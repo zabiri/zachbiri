@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { absAnimated, pedalShadow } from "./Variables";
 import Bubble from "./Bubble";
 import Words from "./Words";
+import { absAnimated, pedalShadow } from "./Variables";
 const SpeechBubble = styled.div`
   ${absAnimated};
   width: 30%;
@@ -11,5 +11,4 @@ const SpeechBubble = styled.div`
 `;
 SpeechBubble.Bubble = Bubble;
 SpeechBubble.Words = Words;
-
 export default SpeechBubble;

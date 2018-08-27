@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import verticalCenter from "../../mixins/verticalCenter";
 import Item from "./Item";
+import verticalCenter from "../../mixins/verticalCenter";
 const List = styled.ul`
   list-style: none;
   ${verticalCenter};

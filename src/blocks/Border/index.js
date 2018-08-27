@@ -1,6 +1,5 @@
 import React from "react";
-import Border from './Master'
-
+import Border from "./Master";
 const border = () => {
   return (
     <Border>
@@ -14,5 +13,4 @@ const border = () => {
     </Border>
   );
 };
-
 export default border;

@@ -1,9 +1,7 @@
 import React from "react";
-import styled from "styled-components";
 import WebSite from "./WebSite";
-import githubLogo from "../../assets/images/logos/github-icon.svg";
 import TechIcon from "../TechIcon/";
-import respond from '../../mixins/respond'
+import githubLogo from "../../assets/images/logos/github-icon.svg";
 const website = props => {
   const techUsed = props.tech.map(icon => <TechIcon key={icon+props.siteName} tech={icon} />);
   return (
@@ -28,5 +26,4 @@ const website = props => {
     </WebSite>
   );
 };
-
 export default website;

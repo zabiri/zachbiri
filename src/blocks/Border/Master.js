@@ -1,9 +1,6 @@
 import styled from "styled-components";
-
-// import Top from "./Top";
 import { Top, Right, Left, BottomL, BottomR } from "./Sides";
-import { LBar, RBar } from './SideBars'
-
+import { LBar, RBar } from "./SideBars";
 const Border = styled.div`
   pointer-events: none;
   left: 0;
@@ -14,7 +11,6 @@ const Border = styled.div`
   z-index: ${props => props.theme.borderZIndex};
   filter: drop-shadow(${props => props.theme.shadow});
 `;
-
 Border.Top = Top;
 Border.Right = Right;
 Border.Left = Left;
@@ -22,5 +18,4 @@ Border.BottomL = BottomL;
 Border.BottomR = BottomR;
 Border.LBar = LBar;
 Border.RBar = RBar;
-
 export default Border;

@@ -15,7 +15,6 @@ const Cols = styled.div`
     text-align: center;
   `};
 `;
-
 const Left = Cols.extend`
   border-right: 1px rgb(54, 54, 54) solid;
   text-align: right;
@@ -25,7 +24,6 @@ const Left = Cols.extend`
     padding-top: 0;
   `};
 `;
-
 const Right = Cols.extend`
   text-align: left;
 `;

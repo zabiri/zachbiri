@@ -1,9 +1,6 @@
 import styled from "styled-components";
 import { pedalDance, pedalRubberBand } from "./Keyframes";
 import { absAnimated } from "./Variables";
-
-
-
 const Bubble = styled.img.attrs({
   alt: "(word bubble)",
 })`

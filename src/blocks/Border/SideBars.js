@@ -1,5 +1,4 @@
 import styled from "styled-components";
-
 const SideBars = styled.div`
   background-color: ${props => props.theme.colorBorder};
   position: absolute;
@@ -9,12 +8,10 @@ const SideBars = styled.div`
   width: ${props => props.theme.borderThickness};
   z-index: -1;
 `;
-
 const LBar = SideBars.extend`
   left: ${props => props.theme.borderBumperDisplacement};
 `;
 const RBar = SideBars.extend`
   right: ${props => props.theme.borderBumperDisplacement};
 `;
-
 export { LBar, RBar };

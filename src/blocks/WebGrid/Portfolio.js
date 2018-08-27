@@ -3,7 +3,6 @@ import tipCalcReactVid from "../../assets/video/websites/TipReact.mp4";
 import tipCalcAngVid from "../../assets/video/websites/TipAngular.mp4";
 import rendrVid from "../../assets/video/websites/Rendr.mp4";
 import stopkingVid from "../../assets/video/websites/Stopkings.mp4";
-
 import todoVid from "../../assets/video/websites/Todo.mp4";
 import scorekeeperVid from "../../assets/video/websites/Scorekeeper.mp4";
 import colorpickerVid from "../../assets/video/websites/ColorPicker.mp4";

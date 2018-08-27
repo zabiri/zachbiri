@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import { ThemeProvider } from "styled-components";
+import ScrollableAnchor, { configureAnchors } from "react-scrollable-anchor";
+import Audio from "./components/Audio";
 import Border from "./blocks/Border/";
 import Intro from "./components/Intro";
-import WebDevelopment from "./components/WebDevelopment";
-import Audio from "./components/Audio";
 import Footer from './components/Footer'
 import Nav from "./blocks/NavPanel";
+import WebDevelopment from "./components/WebDevelopment";
 import { theme } from "./theme/globalStyles";
-import ScrollableAnchor, { configureAnchors } from "react-scrollable-anchor";
 class App extends Component {
   render() {
     configureAnchors({keepLastAnchorHash: false})
