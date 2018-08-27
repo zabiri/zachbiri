@@ -19,11 +19,7 @@ const Video = styled.video.attrs({
   mask-repeat: no-repeat;
   mask-position: center;
   transform: translate3d(5%, 0, 0);
-  backface-visibility: hidden;
   animation: ${HairBounceIn} 1s 0s;
   z-index: calc(${props => props.theme.borderZIndex} - 1);
-  filter: drop-shadow(
-    0px 0px 0px #4444dd
-  ); // this doesn't actually do anything, but it does fix a firefox bug where the svg doesn't animate.
 `;
 export default Video;
