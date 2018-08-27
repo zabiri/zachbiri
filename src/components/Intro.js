@@ -21,7 +21,7 @@ const intro = props => {
         grid-template-columns: 1fr;
         padding: ${props => props.theme.contentMargin};
         min-height: auto;
-        margin-bottom: 5rem;
+        margin-bottom: 6.5rem;
     `};
   
   `;
