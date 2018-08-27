@@ -9,15 +9,15 @@ import colorpickerVid from "../../assets/video/websites/ColorPicker.mp4";
 import burgerVid from "../../assets/video/websites/Burger.mp4";
 
 
-import webMyardsandgodsVid from "../../assets/video/websites/YardsGods.webmsd.webm";
-import webMtipCalcReactVid from "../../assets/video/websites/TipReact.webmsd.webm";
-import webMtipCalcAngVid from "../../assets/video/websites/TipAngular.webmsd.webm";
-import webMrendrVid from "../../assets/video/websites/Rendr.webmsd.webm";
-import webMstopkingVid from "../../assets/video/websites/Stopkings.webmsd.webm";
-import webMtodoVid from "../../assets/video/websites/Todo.webmsd.webm";
-import webMscorekeeperVid from "../../assets/video/websites/Scorekeeper.webmsd.webm";
-import webMcolorpickerVid from "../../assets/video/websites/ColorPicker.webmsd.webm";
-import webMburgerVid from "../../assets/video/websites/Burger.webmsd.webm";
+import webMyardsandgodsVid from "../../assets/video/websites/YardsGods.webm";
+import webMtipCalcReactVid from "../../assets/video/websites/TipReact.webm";
+import webMtipCalcAngVid from "../../assets/video/websites/TipAngular.webm";
+import webMrendrVid from "../../assets/video/websites/Rendr.webm";
+import webMstopkingVid from "../../assets/video/websites/Stopkings.webm";
+import webMtodoVid from "../../assets/video/websites/Todo.webm";
+import webMscorekeeperVid from "../../assets/video/websites/Scorekeeper.webm";
+import webMcolorpickerVid from "../../assets/video/websites/ColorPicker.webm";
+import webMburgerVid from "../../assets/video/websites/Burger.webm";
 
 const portfolio = [
   {

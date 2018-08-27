@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 const webRows = props => {
   const WebRows = styled.section`
-    background-color: ${props => props.theme.colorBackgroundPage};
     background-color: #f4f8ff;
     box-sizing: border-box;
     display: grid;
