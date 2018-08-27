@@ -15,7 +15,6 @@ const web = () => {
           <P>
             I am a front-end developer with an interest in design and UI/UX.
           </P>
-          <P />
         </div>
       </Fade>
     </Web>

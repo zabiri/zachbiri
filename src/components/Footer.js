@@ -14,19 +14,21 @@ const footer = () => {
             </span> &
           </p>
           <p>
-            <i className="fab fa-react" />
-            &nbsp;
-            <i className="fab fa-html5" />
-            &nbsp;
-            <i className="fab fa-js-square" />
-            &nbsp;
-            <span
-              aria-label="styled-components"
-              alt="styled-components"
-              role="img"
-            >
-              💅
-            </span>
+            <a href="https://github.com/zabiri/zachbiri" target="_blank" rel="noopener noreferrer" alt="View this site's source on Github">
+              <i className="fab fa-react" />
+              &nbsp;
+              <i className="fab fa-html5" />
+              &nbsp;
+              <i className="fab fa-js-square" />
+              &nbsp;
+              <span
+                aria-label="styled-components"
+                alt="styled-components"
+                role="img"
+              >
+                💅
+              </span>
+            </a>
           </p>
         </Footer.Left>
         <Footer.Right>

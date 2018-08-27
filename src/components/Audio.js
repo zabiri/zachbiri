@@ -15,7 +15,7 @@ const audio = props => {
     ${respond.upto699`
     display: flex;
     flex-direction: column-reverse;
-    padding: ${props => props.theme.contentMargin};
+    padding: 10rem ${props => props.theme.contentMargin};
     min-height: auto;
     `}
   `;
