@@ -7,7 +7,11 @@ const website = props => {
   return (
     <WebSite>
       <WebSite.Link href={props.link}>
-        <WebSite.Video src={props.siteVideo} />
+        {/* <WebSite.Video src={props.siteVideo} /> */}
+        <WebSite.Video>
+          <source src={props.siteVideo} type="video/mp4"/>
+          <source src={props.webMsiteVideo} type="video/webm"/>
+          </WebSite.Video>
       </WebSite.Link>
       <WebSite.InfoContainer>
         <WebSite.Link href={props.link}>

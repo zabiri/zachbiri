@@ -8,6 +8,7 @@ const webGrid = props => {
     <Website
       key={site.name}
       siteVideo={site.video}
+      webMsiteVideo={site.webMvideo}
       siteName={site.name}
       info={site.info}
       tech={site.tech}

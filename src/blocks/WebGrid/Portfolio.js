@@ -8,6 +8,17 @@ import scorekeeperVid from "../../assets/video/websites/Scorekeeper.mp4";
 import colorpickerVid from "../../assets/video/websites/ColorPicker.mp4";
 import burgerVid from "../../assets/video/websites/Burger.mp4";
 
+
+import webMyardsandgodsVid from "../../assets/video/websites/YardsGods.webmsd.webm";
+import webMtipCalcReactVid from "../../assets/video/websites/TipReact.webmsd.webm";
+import webMtipCalcAngVid from "../../assets/video/websites/TipAngular.webmsd.webm";
+import webMrendrVid from "../../assets/video/websites/Rendr.webmsd.webm";
+import webMstopkingVid from "../../assets/video/websites/Stopkings.webmsd.webm";
+import webMtodoVid from "../../assets/video/websites/Todo.webmsd.webm";
+import webMscorekeeperVid from "../../assets/video/websites/Scorekeeper.webmsd.webm";
+import webMcolorpickerVid from "../../assets/video/websites/ColorPicker.webmsd.webm";
+import webMburgerVid from "../../assets/video/websites/Burger.webmsd.webm";
+
 const portfolio = [
   {
     name: "Yards & Gods",
@@ -16,7 +27,8 @@ const portfolio = [
     github: "https://github.com/zabiri/yardsandgods",
     link: "http://yardsandgods.net",
     tech: ["js", "react", "router", "sass", "fontawesome"],
-    video: yardsandgodsVid
+    video: yardsandgodsVid,
+    webMvideo: webMyardsandgodsVid
   },
   {
     name: "Cafe Berlin Tip Calculator (v2)",
@@ -25,7 +37,8 @@ const portfolio = [
     github: "https://github.com/zabiri/cafeberlin-tipshare",
     link: "http://zachbiri.com/cbtip",
     tech: ["js", "react", "redux", "sass", "fontawesome"],
-    video: tipCalcReactVid
+    video: tipCalcReactVid,
+    webMvideo: webMtipCalcReactVid
   },
   {
     name: "Cafe Berlin Tip Calculator (v1)",
@@ -34,7 +47,8 @@ const portfolio = [
     github: "https://www.youtube.com/watch?v=YVVTiNsRW6c",
     link: "http://zachbiri.com/sandbox/cbts",
     tech: ["typescript", "angular", "bootstrap", "css"],
-    video: tipCalcAngVid
+    video: tipCalcAngVid,
+    webMvideo: webMtipCalcAngVid
   },
   {
     name: "Rendr",
@@ -43,7 +57,8 @@ const portfolio = [
     github: "https://github.com/zabiri/rendrpopup",
     link: "http://rendrpopup.com",
     tech: ["js", "html", "sass", "bootstrap", "fontawesome"],
-    video: rendrVid
+    video: rendrVid,
+    webMvideo: webMrendrVid
   },
   {
     name: "Stop King's Attacks",
@@ -52,7 +67,8 @@ const portfolio = [
     github: null,
     link: "http://stopkingsattack.com/",
     tech: ["wp", "js", "css", "html"],
-    video: stopkingVid
+    video: stopkingVid,
+    webMvideo: webMstopkingVid
   },
   {
     name: "Burger Builder",
@@ -61,7 +77,8 @@ const portfolio = [
     github: "https://github.com/zabiri/burgerbuilder",
     link: "http://zachbiri.com/sandbox/burger",
     tech: ["react", "redux", "router", "firebase"],
-    video: burgerVid
+    video: burgerVid,
+    webMvideo: webMburgerVid
   },
   {
     name: "Another To-Do List",
@@ -70,7 +87,8 @@ const portfolio = [
     github: "https://github.com/zabiri/simple-todo-list",
     link: "http://zachbiri.com/sandbox/todo",
     tech: ["js", "jquery", "css", "html", "bootstrap", "fontawesome"],
-    video: todoVid
+    video: todoVid,
+    webMvideo: webMtodoVid
   },
   {
     name: "Scorekeeper",
@@ -79,7 +97,8 @@ const portfolio = [
     github: "https://github.com/zabiri/scorekeeper",
     link: "http://zachbiri.com/sandbox/sk",
     tech: ["js", "css", "html", "bootstrap", "fontawesome"],
-    video: scorekeeperVid
+    video: scorekeeperVid,
+    webMvideo: webMscorekeeperVid
   },
   {
     name: "HEX Color Guessing Game",
@@ -88,7 +107,8 @@ const portfolio = [
     github: "https://github.com/zabiri/rgbcolor-game",
     link: "http://zachbiri.com/sandbox/cp",
     tech: ["js", "css", "html"],
-    video: colorpickerVid
+    video: colorpickerVid,
+    webMvideo: webMcolorpickerVid
   }
 ];
 export default portfolio;
