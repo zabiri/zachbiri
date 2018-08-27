@@ -12,25 +12,31 @@ const Cols = styled.div`
 
 const Left = Cols.extend`
   border-right: 1px rgb(54, 54, 54) solid;
-  font-family: ${props => props.theme.fontParagraph};
-  font-size: 3rem;
+  font-family: ${props => props.theme.fontHeader};
+  font-size: 2rem;
   padding-top: 2.2rem;
+  padding-bottom: 2.2rem;
   text-align: right;
   ${respond.upto599`
     border: 0;
-    border-bottom: 1px rgb(54, 54, 54) solid;
+    border-bottom: 1px rgb(54, 54, 54) dotted;
     padding-bottom: 2rem;
     padding-top: 0;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 2rem;
   `};
 `;
 
 const Right = Cols.extend`
   text-align: left;
-  font-size: 1.6rem;
+  font-size: 2rem;
+  padding-top: 2.2rem;
+  padding-bottom: 2.2rem;
+  font-family: ${props => props.theme.fontHeader};
   ${respond.upto599`
-    border-bottom: 1px rgb(54, 54, 54) solid;
+    text-align: center;
+    padding-bottom: 2rem;
+    border-bottom: 1px rgb(54, 54, 54) dotted;
   `};
 `;
 

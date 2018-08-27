@@ -5,7 +5,7 @@ import { Left, Right } from "./Cols";
 import List from "./List";
 import respond from "../../mixins/respond";
 const footerContainer = styled.footer`
-  background-color: #343434;
+  background-color: #212121;
   box-sizing: border-box;
   clip-path: polygon(
     0% 10%,

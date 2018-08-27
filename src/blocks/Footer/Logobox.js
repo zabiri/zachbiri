@@ -14,7 +14,7 @@ const Gradient = keyframes`
 
 const Logobox = styled.div`
   animation: ${Gradient} 10s ease infinite;
-  background: linear-gradient(270deg, #4c49b2, #db4eb2, #fbfc79, #0eb7e1);
+  background: linear-gradient(270deg, #421093, #c5cbe3, #63B17D, #0eb7e1);
   background-size: 800% 800%;
   height: 10rem;
   margin: 2rem 0;
