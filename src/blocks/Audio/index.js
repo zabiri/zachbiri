@@ -3,7 +3,7 @@ import styled from "styled-components";
 import P from "./P";
 import H1 from "./H1";
 import respond from "../../mixins/respond";
-
+import Link from './Link'
 
 
 const audio = props => {
@@ -14,11 +14,7 @@ const audio = props => {
       margin-top: 2rem;
     `};
   `;
-  const Link = styled.a`
-  text-decoration: none;
-  color: black;
-  border-bottom: dotted .1rem grey;
-  `
+  
   return (
     <Container>
       <H1>Music & Audio</H1>

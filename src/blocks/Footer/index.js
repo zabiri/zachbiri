@@ -2,7 +2,6 @@ import styled from "styled-components";
 import Flex from "./Flex";
 import Logobox from "./Logobox";
 import { Left, Right } from "./Cols";
-import List from "./List";
 import respond from "../../mixins/respond";
 const footerContainer = styled.footer`
   background-color: #212121;
@@ -30,5 +29,5 @@ footerContainer.Flex = Flex;
 footerContainer.Logobox = Logobox;
 footerContainer.Left = Left;
 footerContainer.Right = Right;
-footerContainer.List = List;
+
 export default footerContainer;
