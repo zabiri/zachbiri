@@ -1,23 +1,21 @@
-import yardsandgodsVid from "../../assets/video/websites/YardsGods.mp4";
-import tipCalcReactVid from "../../assets/video/websites/TipReact.mp4";
-import tipCalcAngVid from "../../assets/video/websites/TipAngular.mp4";
-import rendrVid from "../../assets/video/websites/Rendr.mp4";
-import stopkingVid from "../../assets/video/websites/Stopkings.mp4";
-import todoVid from "../../assets/video/websites/Todo.mp4";
-import scorekeeperVid from "../../assets/video/websites/Scorekeeper.mp4";
-import colorpickerVid from "../../assets/video/websites/ColorPicker.mp4";
 import burgerVid from "../../assets/video/websites/Burger.mp4";
-
-
-import webMyardsandgodsVid from "../../assets/video/websites/YardsGods.webm";
-import webMtipCalcReactVid from "../../assets/video/websites/TipReact.webm";
-import webMtipCalcAngVid from "../../assets/video/websites/TipAngular.webm";
-import webMrendrVid from "../../assets/video/websites/Rendr.webm";
-import webMstopkingVid from "../../assets/video/websites/Stopkings.webm";
-import webMtodoVid from "../../assets/video/websites/Todo.webm";
-import webMscorekeeperVid from "../../assets/video/websites/Scorekeeper.webm";
-import webMcolorpickerVid from "../../assets/video/websites/ColorPicker.webm";
+import colorpickerVid from "../../assets/video/websites/ColorPicker.mp4";
+import rendrVid from "../../assets/video/websites/Rendr.mp4";
+import scorekeeperVid from "../../assets/video/websites/Scorekeeper.mp4";
+import stopkingVid from "../../assets/video/websites/Stopkings.mp4";
+import tipCalcAngVid from "../../assets/video/websites/TipAngular.mp4";
+import tipCalcReactVid from "../../assets/video/websites/TipReact.mp4";
+import todoVid from "../../assets/video/websites/Todo.mp4";
 import webMburgerVid from "../../assets/video/websites/Burger.webm";
+import webMcolorpickerVid from "../../assets/video/websites/ColorPicker.webm";
+import webMrendrVid from "../../assets/video/websites/Rendr.webm";
+import webMscorekeeperVid from "../../assets/video/websites/Scorekeeper.webm";
+import webMstopkingVid from "../../assets/video/websites/Stopkings.webm";
+import webMtipCalcAngVid from "../../assets/video/websites/TipAngular.webm";
+import webMtipCalcReactVid from "../../assets/video/websites/TipReact.webm";
+import webMtodoVid from "../../assets/video/websites/Todo.webm";
+import webMyardsandgodsVid from "../../assets/video/websites/YardsGods.webm";
+import yardsandgodsVid from "../../assets/video/websites/YardsGods.mp4";
 
 const portfolio = [
   {
@@ -74,7 +72,7 @@ const portfolio = [
     name: "Burger Builder",
     info:
       "This React+Redux+Router app was the course project for Max Schwarzmüller's 'Complete Guide' React course.",
-    github: "https://github.com/zabiri/burgerbuilder",
+    github: "https://github.com/zabiri/tuts-burgerbuilder",
     link: "http://zachbiri.com/sandbox/burger",
     tech: ["react", "redux", "router", "firebase"],
     video: burgerVid,
@@ -84,7 +82,7 @@ const portfolio = [
     name: "Another To-Do List",
     info:
       "I made this as an exercise in Colt Steele's 'Web Developer Bootcamp' course.",
-    github: "https://github.com/zabiri/simple-todo-list",
+    github: "https://github.com/zabiri/tuts-simple-todo-list",
     link: "http://zachbiri.com/sandbox/todo",
     tech: ["js", "jquery", "css", "html", "bootstrap", "fontawesome"],
     video: todoVid,
@@ -94,7 +92,7 @@ const portfolio = [
     name: "Scorekeeper",
     info:
       "Started from a JS exercise I was reading, but I got carried away adding extra features and styling to it.",
-    github: "https://github.com/zabiri/scorekeeper",
+    github: "https://github.com/zabiri/tuts-scorekeeper",
     link: "http://zachbiri.com/sandbox/sk",
     tech: ["js", "css", "html", "bootstrap", "fontawesome"],
     video: scorekeeperVid,
@@ -104,7 +102,7 @@ const portfolio = [
     name: "HEX Color Guessing Game",
     info:
       "Also made as part of Colt Steele's 'Web Developer Bootcamp', this is a vanilla javascript HEX color guessing game.",
-    github: "https://github.com/zabiri/rgbcolor-game",
+    github: "https://github.com/zabiri/tuts-rgbcolor-game",
     link: "http://zachbiri.com/sandbox/cp",
     tech: ["js", "css", "html"],
     video: colorpickerVid,
